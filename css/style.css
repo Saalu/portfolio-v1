@@ -110,6 +110,7 @@
         height: 100vh;
         z-index: 1000; 
         overflow: hidden;
+        display: block;
     }
 
     /* ----javascript action----- */
@@ -134,7 +135,7 @@
         width: 4rem;
         position: absolute;
         left: 11%;
-        top: 5%;
+        top: 3%;
         z-index: 11000;
         cursor: pointer;
         display: flex;

@@ -31,3 +31,13 @@ document.querySelector('.menu').onclick = () =>{
     mobileNav.classList.add('active')
     // console.log('menu here')  
 }
+
+document.querySelectorAll('.menu-link').forEach(link => {
+  link.addEventListener('click', () => {
+    // document.getElementById('popupMenu').style.display = 'none';
+    mobileNav.classList.remove('active')
+    logo.style.opacity = "1"
+    document.body.style.overflow = 'hidden';  
+  });
+});
+
