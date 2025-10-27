@@ -544,6 +544,10 @@ footer{
         section{
         padding: 2rem 5%;
         }
+
+        .home{
+            margin-top: 15rem;
+        }
         
         .home #heading{
         font-size: 3rem;
